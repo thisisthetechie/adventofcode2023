@@ -1,5 +1,8 @@
 import re
 
+from tabulate import tabulate
+from typing import Type
+
 class AOC:
     def __init__(self, file, example):
       day = re.findall(r"day(\d+)-(\d+).+", file)[0]
